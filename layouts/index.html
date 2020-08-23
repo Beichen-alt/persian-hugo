@@ -1,6 +1,7 @@
 {{ define "main" }}
 
 <section class="section pt-0">
+  <h1>我是褚兴龙</h1>
   <div class="container-fluid">
     <div class="row">
       {{ $paginator := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
